@@ -1,0 +1,12 @@
+#чтобы venv работал, если вдруг выключен
+
+python -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  
+.venv\Scripts\activate
+
+________________________________________________________________________________________________________________________________________________________________
+
+#это уже запускать прогу
+
+streamlit run app.py
+
